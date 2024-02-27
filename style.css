@@ -1,0 +1,353 @@
+*{ 
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+} 
+/* NAV BAR */
+header{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(116, 108, 108); 
+    padding: 15px;
+}
+.logo{
+    width: 170px;
+    height: 60px;
+    margin-left: 30px; ;
+    margin-right: 140px;
+}
+.nav-2{
+    align-items: center;
+
+}
+li{
+    float: inline-start;
+    list-style-type: none;
+    text-transform: capitalize;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: rgb(117, 111, 111);
+    font-size: large;
+}
+li:hover{
+    color: red;
+    cursor: pointer;
+}
+.nav-3{
+    float: inline-end;
+    margin-left: 90px;
+}
+
+.bi-lock{
+    margin-left: 120px;
+    color: rgb(224, 124, 124);
+    font-size: larger;
+}
+.bi-lock:hover{
+    color: red;
+}
+.btn{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+.btn:hover{
+    box-shadow: 10px 10px 5px rgb(138, 134, 134);
+    cursor: pointer;
+}
+span{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+/* MAIN CONTAINER */
+.main{
+    background-color: aliceblue;
+    margin: 30px;
+    border-radius: 5px;
+    display: flex;
+}
+.asider{
+    line-height: 70px;
+}
+h1{
+    font-size: 48px;
+}
+#span-2{
+    color: rgb(223, 28, 28);
+}
+h2{
+    color: gray;
+    margin-left: 30px;
+}
+.inp{
+    outline: 0;
+    font-size: larger;
+    width: 30em;
+    padding: 18px;
+    border-top: 2px solid brown;
+    border-left: 2px solid red;
+    border-bottom: 2px solid red;
+    border-right: 2px solid brown;
+    margin-left: 25px;
+    margin-right:150px;
+}
+.s-inp{
+    outline: 0;
+    width: 225px;
+    padding: 8px;
+    border-top: 2px solid brown;
+    border-left: 2px solid red;
+    border-bottom: 2px solid red;
+    border-right: 2px solid brown;
+    margin-left: 25px;
+    color: red;
+}
+.s-inp::placeholder{
+    color: red;
+    font-weight: 100;
+}
+p{
+    color: red; 
+    margin-left: 25px;
+}
+.btn-2{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    margin-left: 25px;
+}
+.picture{
+    float:left;
+    margin-top: 30px;
+}
+#heading{
+    margin-left: 450px;
+}
+#heading-2{
+    margin-left: 500px;
+}
+.second-page{
+    display: flex;
+    gap: 30px;
+}
+.cards{
+    width: 400px;
+    height: 300px;
+    margin-left: 20px;
+    border-radius: 20px;
+    border: 1px solid rgb(182, 179, 179);
+
+}
+#pic2{
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 400px;
+    height: 200px;
+}
+#pic1{
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+}
+#pic3{
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+}
+.btn-3{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    margin-left: 32%;
+    margin-top: 30%;
+   
+}
+.h{
+    text-transform: capitalize;
+    font-size: x-large;
+    margin-left: 120px;
+}
+.orange{
+    height: 600px;
+    margin: 40px;
+    color: white;
+    background-color:aliceblue;
+}
+.orange,p{
+    color: black;
+    text-align: justify;
+    text-align: center;
+}
+.card{
+    border: 1px solid white;
+    box-sizing: border-box;
+    padding-top: 5px;
+    font-size: xx-large;
+    border-radius: 20px;
+    background-color: white;
+    margin: 5px;
+    color: black;
+    width: 300px;
+    height: 300px;
+}
+#para-in-card{
+    color: black; 
+    font-size: large;
+}
+.bi-emoji-smile{
+    font-size: 3rem;
+    margin-top: 10px;
+}
+.work{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.build-card{
+    height: 350px;
+    border: 1px solid rgb(150, 149, 149);
+    border-radius: 1rem;
+    width: 280px;
+}
+#big{
+    text-align: center;
+}
+#build{
+    width: 280px;
+    border-radius: 1rem;
+    height: 180px;
+}
+.build{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.build-card h2, .row h2{
+    color: black;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 65rem;
+}
+.card2{
+    width: 380px;
+    height: 390px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(182, 179, 179);
+}
+#pic{
+    width:380px ;
+    height: 180px;
+    border-radius: 10px;
+}
+.c{
+    color: black;
+    margin-left: 0px;
+}
+.card2{
+    margin: auto;
+}
+.background{
+    
+    background-image: url(https://spotfinder.app/static/media/partner.2428d0330248356fbeb7.png);
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    width: 70owh;
+    margin: 55px;
+    margin-bottom: 20px;
+    border-radius: 20px
+}
+.back-head{
+    padding-top: 150px;
+    font-size: 4rem;
+    color: #fff;
+    text-align: center;
+}
+#email{
+    width: 20rem;
+    margin-left: 33rem;
+    height: 3.5rem;    
+}
+.last{
+    background-color: #f5faff;
+    height: 200px;
+}
+#btn4{
+    background-color: red;
+    width: 5rem;
+    height: 3.5rem;
+    color: #fff;
+    outline: none;
+    border: 0px;
+
+}
+
+ /* footer */ 
+
+footer {
+    padding: 3rem ;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+footer a {
+    text-decoration: none;
+}
+
+footer h3 {
+    font-size: 1.4rem;
+    color: #ec3131;
+    margin-bottom: 1rem;
+}
+
+.footer-box-1 p {
+    color: #94a3b8;
+    line-height: 20px;
+}
+
+footer a {
+    display: block;
+    margin: 1rem 1rem 2rem 0;
+    font-size: 1rem;
+    color: #94a3b8;
+}
+
+#founder {
+    font-size: 1rem;
+    color: #94a3b8;
+    text-align: center;
+    padding: 1rem;
+}
+.m-1{
+    width: 100%;
+    border-radius: 10%;
+}
+.btn-4{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    margin-left: 32%;
+}
